@@ -11,7 +11,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -31,7 +31,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+    
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        let app = UIApplication.shared
 
+        //create new uiBackgroundTask
+        var bgTask = app.beginBackgroundTask(expirationHandler: {
+            //app.endBackgroundTask(bgTask)
+           // bgTask = .invalid
+        })
 
+        //and create new timer with async call:
+        DispatchQueue.global(qos: .default).async(execute: {
+            //run function methodRunAfterBackground
+            let t = Timer.scheduledTimer(
+                timeInterval: 10,
+                target: self,
+                selector: #selector(self.methodRunAfterBackground),
+                userInfo: nil,
+                repeats: false)
+            RunLoop.current.add(t, forMode: .default)
+            RunLoop.current.run()
+        })
+    }
+    
+    @objc func methodRunAfterBackground() {
+        
+    }
+    
 }
 
