@@ -13,10 +13,8 @@
 		0718FF74245B135500654BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0718FF73245B135500654BC0 /* Assets.xcassets */; };
 		0718FF77245B135500654BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0718FF75245B135500654BC0 /* LaunchScreen.storyboard */; };
 		0718FF80245B15C600654BC0 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0718FF7F245B15C200654BC0 /* Pacifico-Regular.ttf */; };
-		0718FF9F245B22E300654BC0 /* CovidFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FF9C245B22E200654BC0 /* CovidFetchRequest.swift */; };
 		0718FFA0245B22E300654BC0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FF9D245B22E200654BC0 /* Extension.swift */; };
 		0718FFA1245B22E300654BC0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FF9E245B22E300654BC0 /* Model.swift */; };
-		0718FFA4245B23B900654BC0 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFA3245B23B900654BC0 /* RecentViewController.swift */; };
 		0718FFA7245B287C00654BC0 /* RecentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFA5245B287C00654BC0 /* RecentViewCell.swift */; };
 		0718FFA8245B287C00654BC0 /* RecentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0718FFA6245B287C00654BC0 /* RecentViewCell.xib */; };
 		0718FFAC245B2D1700654BC0 /* RecentHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFAB245B2D1700654BC0 /* RecentHeaderTableViewCell.swift */; };
@@ -24,8 +22,12 @@
 		0718FFB4245B3E7100654BC0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFB3245B3E7100654BC0 /* UIView+Extension.swift */; };
 		0718FFBA245B78A700654BC0 /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFB9245B78A600654BC0 /* CountryDetailViewController.swift */; };
 		0718FFBC245B84FC00654BC0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFBB245B84FC00654BC0 /* MapView.swift */; };
-		0718FFBE245B877100654BC0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFBD245B877100654BC0 /* MapViewController.swift */; };
+		0718FFBE245B877100654BC0 /* IndiaDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFBD245B877100654BC0 /* IndiaDataViewController.swift */; };
 		0718FFC0245B87A100654BC0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0718FFBF245B87A100654BC0 /* MapKit.framework */; };
+		0718FFC2245C40E600654BC0 /* WorldDataFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFC1245C40E600654BC0 /* WorldDataFetchRequest.swift */; };
+		0718FFC4245C422200654BC0 /* WorldDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFC3245C422200654BC0 /* WorldDataViewController.swift */; };
+		0718FFC6245CB10500654BC0 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFC5245CB10500654BC0 /* CountryListViewController.swift */; };
+		0718FFC8245CDD6D00654BC0 /* IndiaDataFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718FFC7245CDD6D00654BC0 /* IndiaDataFetchRequest.swift */; };
 		27A00768274CB443D6C5B1F2 /* Pods_Covid19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A8438436C41AEA8A07ACC7 /* Pods_Covid19.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,10 +40,8 @@
 		0718FF76245B135500654BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0718FF78245B135500654BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0718FF7F245B15C200654BC0 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
-		0718FF9C245B22E200654BC0 /* CovidFetchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CovidFetchRequest.swift; sourceTree = "<group>"; };
 		0718FF9D245B22E200654BC0 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		0718FF9E245B22E300654BC0 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		0718FFA3245B23B900654BC0 /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
 		0718FFA5245B287C00654BC0 /* RecentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewCell.swift; sourceTree = "<group>"; };
 		0718FFA6245B287C00654BC0 /* RecentViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentViewCell.xib; sourceTree = "<group>"; };
 		0718FFAB245B2D1700654BC0 /* RecentHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentHeaderTableViewCell.swift; sourceTree = "<group>"; };
@@ -49,8 +49,12 @@
 		0718FFB3245B3E7100654BC0 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		0718FFB9245B78A600654BC0 /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
 		0718FFBB245B84FC00654BC0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		0718FFBD245B877100654BC0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0718FFBD245B877100654BC0 /* IndiaDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaDataViewController.swift; sourceTree = "<group>"; };
 		0718FFBF245B87A100654BC0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0718FFC1245C40E600654BC0 /* WorldDataFetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldDataFetchRequest.swift; sourceTree = "<group>"; };
+		0718FFC3245C422200654BC0 /* WorldDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorldDataViewController.swift; path = Covid19/Controller/WorldDataViewController.swift; sourceTree = SOURCE_ROOT; };
+		0718FFC5245CB10500654BC0 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		0718FFC7245CDD6D00654BC0 /* IndiaDataFetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaDataFetchRequest.swift; sourceTree = "<group>"; };
 		1774FB194D73147D01D159BE /* Pods-Covid19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19.debug.xcconfig"; path = "Target Support Files/Pods-Covid19/Pods-Covid19.debug.xcconfig"; sourceTree = "<group>"; };
 		53A8438436C41AEA8A07ACC7 /* Pods_Covid19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B4FCEB257079493F283E67 /* Pods-Covid19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19.release.xcconfig"; path = "Target Support Files/Pods-Covid19/Pods-Covid19.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,9 +117,10 @@
 			children = (
 				0718FF6A245B135100654BC0 /* AppDelegate.swift */,
 				0718FF6C245B135100654BC0 /* SceneDelegate.swift */,
-				0718FFA3245B23B900654BC0 /* RecentViewController.swift */,
 				0718FFB9245B78A600654BC0 /* CountryDetailViewController.swift */,
-				0718FFBD245B877100654BC0 /* MapViewController.swift */,
+				0718FFBD245B877100654BC0 /* IndiaDataViewController.swift */,
+				0718FFC3245C422200654BC0 /* WorldDataViewController.swift */,
+				0718FFC5245CB10500654BC0 /* CountryListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -136,11 +141,12 @@
 		0718FFA2245B22EA00654BC0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0718FF9C245B22E200654BC0 /* CovidFetchRequest.swift */,
 				0718FF9D245B22E200654BC0 /* Extension.swift */,
 				0718FF9E245B22E300654BC0 /* Model.swift */,
 				0718FFB3245B3E7100654BC0 /* UIView+Extension.swift */,
 				0718FFBB245B84FC00654BC0 /* MapView.swift */,
+				0718FFC1245C40E600654BC0 /* WorldDataFetchRequest.swift */,
+				0718FFC7245CDD6D00654BC0 /* IndiaDataFetchRequest.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -283,15 +289,17 @@
 			files = (
 				0718FFA0245B22E300654BC0 /* Extension.swift in Sources */,
 				0718FF6B245B135100654BC0 /* AppDelegate.swift in Sources */,
+				0718FFC8245CDD6D00654BC0 /* IndiaDataFetchRequest.swift in Sources */,
 				0718FFA7245B287C00654BC0 /* RecentViewCell.swift in Sources */,
 				0718FFBC245B84FC00654BC0 /* MapView.swift in Sources */,
 				0718FFB4245B3E7100654BC0 /* UIView+Extension.swift in Sources */,
 				0718FFA1245B22E300654BC0 /* Model.swift in Sources */,
-				0718FFA4245B23B900654BC0 /* RecentViewController.swift in Sources */,
-				0718FFBE245B877100654BC0 /* MapViewController.swift in Sources */,
-				0718FF9F245B22E300654BC0 /* CovidFetchRequest.swift in Sources */,
+				0718FFC2245C40E600654BC0 /* WorldDataFetchRequest.swift in Sources */,
+				0718FFC4245C422200654BC0 /* WorldDataViewController.swift in Sources */,
+				0718FFBE245B877100654BC0 /* IndiaDataViewController.swift in Sources */,
 				0718FF6D245B135100654BC0 /* SceneDelegate.swift in Sources */,
 				0718FFBA245B78A700654BC0 /* CountryDetailViewController.swift in Sources */,
+				0718FFC6245CB10500654BC0 /* CountryListViewController.swift in Sources */,
 				0718FFAC245B2D1700654BC0 /* RecentHeaderTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
